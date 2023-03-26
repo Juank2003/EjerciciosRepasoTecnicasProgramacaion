@@ -25,12 +25,12 @@ Por ejemplo, “DABALEARROZALAZORRAELABAD” es un palíndromo.
 
 ## 5. Implemente, 
 tanto de forma recursiva como de forma iterativa y con expresiones lambda,
-una función que nos devuelva el máximo común divisor de dos números enteros
-utilizando el algoritmo de Euclides
+una función que nos devuelva el máximo común divisor de dos números enterosutilizando el algoritmo de Euclides
+
 -- ALGORITMO DE EUCLIDES -- 
 Dados dos números enteros positivos m y n, tal que m > n,
 para encontrar su máximo común divisor
 (es decir, el mayor entero positivo que divide a ambos):
-- Dividir m por n para obtener el resto r (0 ≤ r < n)
-- Si r = 0, el MCD es n.
-- Si no, el máximo común divisor es MCD(n,r).
+Dividir m por n para obtener el resto r (0 ≤ r < n)
+Si r = 0, el MCD es n.
+Si no, el máximo común divisor es MCD(n,r).
